@@ -1,0 +1,36 @@
+/* src/Game.css */
+.game-area {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .player {
+    margin: 20px;
+  }
+  
+  .health-bar {
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    margin: 10px auto;
+    position: relative;
+  }
+  
+  .health {
+    height: 100%;
+    background-color: red;
+    transition: width 0.5s;
+  }
+  
+  .attack-button,
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    color: red;
+  }
+  

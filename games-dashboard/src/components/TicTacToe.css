@@ -1,0 +1,32 @@
+.tic-tac-toe {
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 60px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 60px;
+}
+
+.square:focus {
+  outline: none;
+}
